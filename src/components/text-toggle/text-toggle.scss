@@ -1,5 +1,28 @@
 text-toggle {
+
+	
+
     .selected {
         font-weight: bold;
+        background: $toggle-on-background ;
+	    color: $toggle-on-text-color ;
+	    padding: 10px 30px;
+	    border-radius: 26px;
+	    letter-spacing: 0.6px;
+    }
+
+    .unselect{
+    	background: $toggle-off-background;
+	    color: $toggle-off-text-color;
+	    padding: 10px 30px;
+	    border-radius: 26px;
+	    letter-spacing: 0.6px;
+    }
+    
+    .toggle-off{
+    	    padding: 10px 2px;
+		    background: #f5f6f9;
+		    color: #afb7cb;
+		    border-radius: 20px;
     }
 }

@@ -15,8 +15,11 @@ export class TextToggleComponent {
     this.selectedChange = new EventEmitter<string>();
   }
 
+   ngOnInit() { this.clickLeft()}
+
   isSelected(value: string): boolean {
       return this.selected === value;
+
   }
 
   clickLeft(): void {

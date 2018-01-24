@@ -80,7 +80,11 @@ $colors: (
 
 @import "ionic.ionicons";
 
-
+	$toggle-on-background: #5cbcb9 ;
+	$toggle-on-text-color: white ;
+	$toggle-off-background: #f5f6f9 ;
+	$toggle-off-text-color: #afb7cb ;
+	
 // Fonts
 // --------------------------------------------------
 
